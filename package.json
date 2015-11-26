@@ -2,7 +2,7 @@
   "name": "github-scraper-js",
   "version": "0.0.1",
   "main": "./lib/index.js",
-  "private": true,
+  "private": false,
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
