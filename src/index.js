@@ -7,7 +7,7 @@ let hub = null;
 let jsonFile = null;
 
 let keys = [
-  'name', 'description', 'updated_at', 'language', 
+  'name', 'description', 'updated_at', 'html_url', 'language', 
   'stargazers_count', 'forks_count', 'contributor_count'
 ];
 
