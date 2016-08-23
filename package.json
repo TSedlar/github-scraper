@@ -1,32 +1,23 @@
 {
   "name": "github-scraper-js",
-  "version": "0.0.1",
-  "main": "./lib/index.js",
+  "version": "0.0.2",
+  "main": "./lib/app.js",
   "private": false,
-  "license": "GPL-2.0",
+  "author": "Tyler Sedlar",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TSedlar/github-scraper.git"
+    "url": "git+https://github.com/TSedlar/github-scraper.git"
   },
-  "scripts": {
-    "compile": "./node_modules/.bin/babel -d lib/ src/",
-    "docs": "./node_modules/.bin/esdoc -c esdoc.json",
-    "lint": "eslint src",
-    "prepublish": "npm run compile",
-    "test": "./node_modules/.bin/eslint src"
+  "bugs": {
+    "url": "https://github.com/TSedlar/github-scraper/issues"
   },
+  "homepage": "https://github.com/TSedlar/github-scraper",
+  "scripts": {},
   "dependencies": {
-    "request": "2.64.0",
-    "lodash": "^3.10.1"
+    "reify": "^0.3.8",
+    "request": "^2.64.0",
+    "small-node-collections": "^1.0.2"
   },
-  "devDependencies": {
-    "babel-cli": "^6.2.0",
-    "babel-eslint": "^4.1.3",
-    "babel-plugin-check-es2015-constants": "^6.2.0",
-    "babel-plugin-transform-es2015-arrow-functions": "^6.1.18",
-    "babel-plugin-transform-es2015-block-scoping": "^6.1.18",
-    "babel-preset-es2015": "^6.1.18",
-    "esdoc": "^0.4.3",
-    "eslint": "^1.7.3"
-  }
+  "devDependencies": {}
 }

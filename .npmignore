@@ -3,3 +3,4 @@ docs
 manual
 persist
 *.sublime-*
+github.config.json

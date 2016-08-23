@@ -11,3 +11,6 @@ npm-debug.log*
 
 # generated docs
 docs
+
+# Project specifics
+github.config.json
