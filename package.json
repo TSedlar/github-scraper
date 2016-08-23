@@ -16,7 +16,7 @@
   "scripts": {},
   "dependencies": {
     "reify": "^0.3.8",
-    "request": "^2.64.0",
+    "request": "^2.74.0",
     "small-node-collections": "^1.0.2"
   },
   "devDependencies": {}
