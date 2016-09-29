@@ -1,6 +1,6 @@
 {
   "name": "github-scraper-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./lib/app.js",
   "private": false,
   "author": "Tyler Sedlar",
@@ -16,7 +16,7 @@
   "scripts": {},
   "dependencies": {
     "reify": "^0.3.8",
-    "request": "^2.74.0",
+    "requestretry": "^1.12.0",
     "small-node-collections": "^1.0.2"
   },
   "devDependencies": {}
